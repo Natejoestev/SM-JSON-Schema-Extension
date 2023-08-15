@@ -1,0 +1,14 @@
+{
+	"version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run Schemas Extension",
+            "type": "extensionHost",
+            "request": "launch",
+            "args": [
+                "${workspaceFolder}/test mod",
+                "--extensionDevelopmentPath=${workspaceFolder}/extension"
+            ]
+        }
+    ]
+}

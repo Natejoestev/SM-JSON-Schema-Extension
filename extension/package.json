@@ -1,0 +1,27 @@
+{
+  "name": "sm-json-schemas",
+  "displayName": "Scrap Mechanic JSON Schemas",
+  "description": "Contains json schemas for Scrap Mechanic's files.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.54.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "jsonc",
+        "extensions": [
+          ".characterdb",
+          ".characterset"
+        ]
+      }
+    ],
+    "jsonValidation": [
+      { "fileMatch": "*.characterdb",  "url": "https://github.com/JuneCarya/Scrap-Mechanic-JSON-Schemata/raw/main/characterdb.schema.json" },
+      { "fileMatch": "*.characterset", "url": "https://github.com/JuneCarya/Scrap-Mechanic-JSON-Schemata/raw/main/characterset.schema.json" }
+    ]
+  }
+}

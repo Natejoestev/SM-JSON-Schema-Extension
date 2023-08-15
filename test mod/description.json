@@ -1,0 +1,9 @@
+{
+   "allow_add_mods" : true,
+   "custom_icons" : false,
+   "description" : "this has only the json files a mod would have",
+   "localId" : "00000000-0000-0000-0000-000000000000",
+   "name" : "schema testing",
+   "type" : "Custom Game",
+   "version" : 0
+}
